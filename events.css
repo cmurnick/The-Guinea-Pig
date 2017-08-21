@@ -11,3 +11,16 @@
 	border: 1px solid purple;
 
 }
+
+.rounded {
+	border-radius: 25px;
+	border: 1px solid purple;
+
+}
+
+.blue,
+.big,
+.around
+.rounded {
+	display: block;
+}

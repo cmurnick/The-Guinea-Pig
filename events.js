@@ -89,6 +89,13 @@ captureIt.addEventListener("click", function(e){
 
 // When you click the "Rounded" button, the guinea-pig element's border should become rounded.
 
+var roundEdge = document.getElementById("add-rounding");
+var guineaPig = document.getElementById("guinea-pig");
+
+roundEdge.addEventListener("click", function(e){
+	guineaPig.classList.toggle("rounded");
+
+})
 
 // The first section's text should be bold.
 
