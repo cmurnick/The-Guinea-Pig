@@ -17,3 +17,20 @@
 	border: 1px solid purple;
 
 }
+
+section:first-of-type {
+	font-weight: bold;
+}
+
+section:last-of-type {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.blue,
+.big,
+.around,
+.rounded {
+	display: block;
+	
+}

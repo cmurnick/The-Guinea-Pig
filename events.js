@@ -10,7 +10,7 @@ document.body.addEventListener('click', function(event){
 	// console.log('click event', event.target.parentNode.parentNode.parentNode);
 		if (event.target.className === 'article-section')  {
 			var articles = document.getElementById("output-target");
-			articles.innerHTML = '<p>' + "You clicked on the"  + '</p>';
+			articles.innerHTML = '<p>You clicked on the ${event.target.innerHTML}</p>';
 		}
 		//need to do the part where I clicked on the text of the section section to print out
 })
@@ -98,18 +98,6 @@ roundEdge.addEventListener("click", function(e){
 })
 
 // 9. The first section's text should be bold.
-
-function showMe(e) {
-	e.target.firstSibling.classList.bold
-
-}
-
-document.body.addEventListener('click', function(event) {
-	console.log("click Event", event);
-	var classSection = document.getElementByClassName("article-section");
-	classSection.e.target.firstChild.parentNode.childNodes.bold;
-	console.log(classSection);
-})
 
 
 
