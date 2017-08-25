@@ -10,7 +10,7 @@ document.body.addEventListener('click', function(event){
 	// console.log('click event', event.target.parentNode.parentNode.parentNode);
 		if (event.target.className === 'article-section')  {
 			var articles = document.getElementById("output-target");
-			articles.innerHTML = '<p>You clicked on the ${event.target.innerHTML}</p>';
+			articles.innerHTML = `<p>You clicked on the ${event.target.innerHTML}</p>`;
 		}
 		//need to do the part where I clicked on the text of the section section to print out
 })
